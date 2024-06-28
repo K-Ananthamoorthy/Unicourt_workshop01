@@ -10,4 +10,4 @@ COPY . .
 RUN yarn install --production
 
 #ENTRYPOINT ["tail", "-f", "/dev/null"]
-CMD ["node", "/app/src/index.js"]
+CMD ["node", "/app/src/index.js"]   
